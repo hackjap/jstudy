@@ -5,24 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb99250b-d2dc-403f-97d6-5f9b76ec62cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/domain/member/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/domain/member/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/servletmvc/MvcMemberFormServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/servletmvc/MvcMemberListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/servletmvc/MvcMemberSaveServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/survlet/MemberFormServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/survlet/MemberListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/survlet/MemberSaveServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/members.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/new-form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/save-result.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/members.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/members/new-form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/members/save.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/servlet/domain/member/MemberRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/ModelView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/MyView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v1/ControllerV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v1/FrontControllerServletV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v1/controller/MemberFormControllerV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v1/controller/MemberListControllerV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v1/controller/MemberSaveControllerV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v2/ControllerV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v2/FrontControllerServletV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v2/controller/MemberFormControllerV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v2/controller/MemberListControllerV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v2/controller/MemberSaveControllerV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v3/ControllerV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v3/FrontControllerServletV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v3/controller/MemberFormControllerV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v3/controller/MemberListControllerV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v3/controller/MemberSaveControllerV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v4/ControllerV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v4/FrontControllerServletV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v4/controller/MemberFormControllerV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v4/controller/MemberListControllerV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v4/controller/MemberSaveControllerV4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +44,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -67,6 +74,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -76,7 +84,11 @@
       <recent name="C:\study\jstudy\spring_mvc_1\servlet\src\main\webapp\jsp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="hello.servlet.basic.request" />
+      <recent name="hello.servlet.web.frontcontroller.v4" />
+      <recent name="hello.servlet.web.frontcontroller.v4.controller" />
+      <recent name="hello.servlet.web.frontcontroller.v3" />
+      <recent name="hello.servlet.web.frontcontroller.v3.controller" />
+      <recent name="hello.servlet.web.frontcontroller.v2" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ServletApplication">
@@ -164,7 +176,7 @@
       <option name="presentableId" value="Default" />
       <updated>1632375112741</updated>
       <workItem from="1632375114122" duration="10346000" />
-      <workItem from="1632531534580" duration="7952000" />
+      <workItem from="1632531534580" duration="17495000" />
     </task>
     <servers />
   </component>
