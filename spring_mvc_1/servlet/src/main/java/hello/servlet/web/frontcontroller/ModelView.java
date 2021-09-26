@@ -14,5 +14,4 @@ public class ModelView {
         this.viewName = viewName;
     }
 
-
 }
