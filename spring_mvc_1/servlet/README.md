@@ -108,3 +108,24 @@
 
 # 스프릥 MVC
 
+Http 요청 -> Dispatcher Servlet  -> HandlerAdapter -> Handler(Controller)
+              view - viewResolver
+- HandlerMapping
+  - RequestMappingHandlerMapping
+- HandlerAdapter
+  - RequestMappingHandlerAdapter
+  
+ViewResolver
+  application.properties
+  - spring.mvc.view.prefix=/WEB-INF/views/
+  - spring.mvc.view.suffix=.jsp
+
+
+- @RequsetParam
+- @ReuqestMapping -> GetMapping,PostMapping
+
+      // public ModelAndView save(HttpServletRequest request, HttpServletResponse response)
+      @PostMapping("/save")
+      String save(@RequestParam("username")String username,
+      @RequestParam("age")int age,
+      Model model )
