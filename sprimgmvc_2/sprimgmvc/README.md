@@ -14,7 +14,7 @@
     trace : 모든 로그 
     debug : 개발용 
     info :  서비스용 
-
+E
 ### 올바른 사용법 
 
 log.trace(" info log = " +  name);  ( X ) 
@@ -22,8 +22,18 @@ log.trace(" info log = {}", name);  ( O )
 -> 연산으로 인한 쓸모없는 리소스 사용을 방지 
 
 
-###
-    
+## 요청 매핑
+
+
+### PahtVarriable 
+
+    @GetMapping("/mapping/{userId}")
+    public String mappingPath(@PathVariable("userId") String data) {
+    log.info("mappingPath =userId={}", data);
+    return "ok";
+    }
+    // 변수명이 같은 경우 @PathVariable() 생략 가능 
+
 
 
 
