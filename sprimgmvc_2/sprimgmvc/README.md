@@ -35,5 +35,19 @@ log.trace(" info log = {}", name);  ( O )
     // 변수명이 같은 경우 @PathVariable() 생략 가능 
 
 
+- HTTP Message Converter
+
+응답
+- 정적 리소스
+- 뷰 템플릿 사용
+- HTTP 메시지 사용 
+
+- ResponseController = Controller + ResponseBody 
+
+- ResponseBody
+    - HttpMessageConverter
+        - Json Converter, StringConverter
+
+
 
 
