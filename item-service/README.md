@@ -7,7 +7,7 @@
 
 ### thymeleaf
 - > th:onclick="|location.href='@{/basic/items/{itemId}(itemId=${item.id})}'|"
-- th 속성시 기존의 html 태그보다 가장 먼저 우선순위로 등록 
+- th 속성시 기존의 html 태그보다 가장 먼저 우선순위로 등록 ****
 - "순수 HTML을 그대로 유지하면서 뷰 템플릿도 사용할 수 있는 타임리프의 특징을 내츄럴 템플릿이라 한다."
 
 
