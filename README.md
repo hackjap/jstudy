@@ -8,6 +8,7 @@ jang's-study repository
 ## 디자인 패턴 
 
 
+## MAC 적용
 
 
 
