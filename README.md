@@ -11,4 +11,5 @@ jang's-study repository
 ## MAC 적용
 
 
+# github add 
 
