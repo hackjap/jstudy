@@ -13,3 +13,5 @@ jang's-study repository
 
 # github add 
 
+# ssh
+
