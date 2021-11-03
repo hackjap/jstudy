@@ -15,3 +15,5 @@ jang's-study repository
 
 # ssh
 
+# galera 
+# cluster 
